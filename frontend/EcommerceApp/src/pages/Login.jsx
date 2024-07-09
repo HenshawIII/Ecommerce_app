@@ -23,7 +23,7 @@ function Login() {
     e.preventDefault()
     const {name,email,password,confam} = values;
   
-      await axios.post("http://localhost:9224/login",values)
+      await axios.post("https://ecommerce-app-heh9.onrender.com/login",values)
       .then(data=>{
         console.log(data)
         if(data.data.error){

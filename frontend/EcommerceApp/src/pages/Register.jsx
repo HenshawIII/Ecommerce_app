@@ -34,7 +34,7 @@ function Register() {
      return toast.error("Password length must be greater than 6")
     }
     else{
-      await axios.post("http://localhost:9224/register",values)
+      await axios.post("https://ecommerce-app-heh9.onrender.com/register",values)
       .then(data=>{
         console.log(data)
         if(data.data.error){
