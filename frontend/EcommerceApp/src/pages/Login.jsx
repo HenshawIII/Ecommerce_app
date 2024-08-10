@@ -6,7 +6,7 @@ import Logo from '../utils/Logo.png'
 import { userContext } from '../UserContext.jsx'
 
 
-axios.defaults.withCredentials = true
+
 
 
 function Login() {
