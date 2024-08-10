@@ -26,7 +26,7 @@ const handleLogOut = (e)=>{
 
   return (
     <div className='p-1 relative'>
-        <div className={`${isOpen? "pl-2 absolute top-0 left-0 h-screen w-1/3 bg-slate-100" :"hidden"} border-2 border-slate-300 md:hidden`}>
+        <div className={`${isOpen? "pl-2 absolute top-0 left-0 h-screen w-1/3 bg-slate-100 z-40" :"hidden"} border-2 border-slate-300 md:hidden`}>
         <MdCancel className='text-right p2 absolute top-2 right-2' onClick={()=>setIsOpen(false)}/>
         <div className='flex flex-col gap-3 items-start mt-16'>
            <NavLink onClick={()=>setIsOpen(false)} className={({isActive})=>isActive? "border-b-2 border-slate-500 p-1":"hover:scale-110"} to={"/"}>Home</NavLink>
