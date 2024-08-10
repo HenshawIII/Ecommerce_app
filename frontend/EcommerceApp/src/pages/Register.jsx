@@ -7,7 +7,6 @@ import AuthImg from "../utils/AuthImage.png"
 import Login from './Login.jsx'
 
 
-axios.defaults.withCredentials = true
 
 
 function Register() {
