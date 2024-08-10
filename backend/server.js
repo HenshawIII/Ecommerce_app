@@ -7,7 +7,7 @@ import { UsersDao } from './UsersDAO.js'
 const app = express()
 app.use(express.json())
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://ecommerce-app-heh9.onrender.com",
     credentials:true
 }))
 
